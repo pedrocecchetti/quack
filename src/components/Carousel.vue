@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-carousel>
-      <v-carousel-item v-for="item in items" :key="item.id" :src="item.src">
+      <v-carousel-item v-for="item in items" :key="item.id" :href="item.src">
       </v-carousel-item>
     </v-carousel>
   </div>
