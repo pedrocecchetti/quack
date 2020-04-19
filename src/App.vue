@@ -1,20 +1,37 @@
 <template>
   <div id="app">
-    <div id="nav"></div>
+    <NavBar />
+    <router-view />
   </div>
 </template>
 
+<script>
+import NavBar from '@/components/NavBar.vue';
+export default {
+  components: {
+    NavBar
+  }
+};
+</script>
+
 <style>
+body {
+  margin: 0;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  display: flex;
+  margin: 0%;
 }
 
 #nav {
-  padding: 30px;
+  padding: 0;
+  width: 100%;
+  position: fixed;
 }
 
 #nav a {
