@@ -3,7 +3,7 @@
     <Carousel />
     <v-container>
       <v-row>
-        <v-col :cols="2" class="nav">
+        <v-col sm="12" md="2" :xs="2" fluid class="nav">
           <h1>oi</h1>
         </v-col>
         <v-col sm="12" md="7" :xs="7" class="content">
@@ -12,8 +12,10 @@
           </v-sheet>
         </v-col>
 
-        <v-col :cols="4" class="creators">
-          <h1><CreatorsSidebar /></h1>
+        <v-col sm="12" md="3" :xs="3" class="creators">
+          <v-sheet color="#232323" class="creators-content">
+            <CreatorsSidebar />
+          </v-sheet>
         </v-col>
       </v-row>
     </v-container>
