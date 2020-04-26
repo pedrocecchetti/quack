@@ -24,7 +24,8 @@
       <v-card
         ><v-img src="@/assets/bruneca.jpg" alt=""></v-img>
         <v-card-title outline>
-          Bruna Chaves - Fundadora
+          Bruna Chaves - <br />
+          Fundadora
         </v-card-title>
         <v-card-text>
           Bruna desde pequena sempre foi aquela criança séria! Com seu olhar
