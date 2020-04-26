@@ -1,8 +1,8 @@
 <template>
-  <v-app-bar class="navbar" app dark>
-    <div class="d-flex align-left">
-      <v-btn :to="{ name: 'Home' }" text x-large fab>Quack</v-btn>
-    </div>
+  <v-app-bar class="navbar" flat app dark hide-on-scroll>
+    <v-app-bar-nav-icon :to="{ name: 'Home' }"
+      ><v-icon>mdi-duck</v-icon></v-app-bar-nav-icon
+    >
 
     <v-spacer></v-spacer>
     <v-btn text :to="{ name: 'Home' }">Home</v-btn>
