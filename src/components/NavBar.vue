@@ -1,8 +1,6 @@
 <template>
   <v-app-bar class="navbar" flat app dark hide-on-scroll>
-    <v-app-bar-nav-icon :to="{ name: 'Home' }"
-      ><v-icon>mdi-duck</v-icon></v-app-bar-nav-icon
-    >
+    <v-app-bar-nav-icon href="/"><v-icon>mdi-duck</v-icon></v-app-bar-nav-icon>
 
     <v-spacer></v-spacer>
     <v-btn text :to="{ name: 'Home' }">Home</v-btn>
